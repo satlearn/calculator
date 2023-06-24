@@ -1,0 +1,64 @@
+body{
+	background-image: url(tree.jpg);background-attachment: fixed;background-repeat: no-repeat;height: 100%;width:100%;background-size: cover;
+}
+.calc{
+	text-align: center;	
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 40px;
+	text-shadow: #100606 1.5px 1px 0.5px;
+}
+.calc:hover{
+	color:#56049a;
+}
+h1{
+    color:#ffffff;
+}
+.calculator {
+	margin: 40px auto;
+	padding: 60px;    
+	width: 250px;
+	height:350px;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(53,26,79,1) 0%, rgba(157,75,233,1) 100%);
+	border: 1px solid #100606;
+	border-radius: 25px;
+	box-shadow: #0b0a0a 2px 2px 0.5px 0.2px;
+}
+
+.calculator input[type="text"] {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	width: 180px;
+	height: 25px;
+	font-size: 25px;
+	border-radius: 10px;
+	box-shadow: #0b0a0a 2px 2px 2px 0.5px;
+	text-align: right;
+}
+
+.calculator table {
+	margin: 20px auto;
+}
+
+.calculator table td {
+	padding: 8px;
+}
+
+.calculator table button {
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #fff;
+	border: 1px solid #514a4a;
+	box-shadow: #0b0a0a 2px 2px 0.5px;
+	border-radius: 10px;
+}
+
+.calculator table button:hover {
+	background-color: #bc4cf0;
+	transition: 300ms;
+}

@@ -1,6 +1,7 @@
 body{
-	/* background-image: url(tree.jpg);background-attachment: fixed;background-repeat: no-repeat;height: 100%;width:100%;background-size: cover; */
-	background-color: #514a4a;
+	background-image: url(num.jpg);background-attachment: fixed;
+	background-repeat: no-repeat;height: 100%;width:100%;background-size: cover; 
+	/* background-color: #190101; */
 }
 .calc{
 	text-align: center;	

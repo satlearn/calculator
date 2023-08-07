@@ -17,7 +17,7 @@ function calculate() {
     let expression = input.value;
     try {
         let result = eval(expression);
-        input.value = result.toFixed(10);//toFixed-it will show only 10 numbers
+        input.value = result;//toFixed-it will show only 10 numbers(result.toFixed(10))
     } catch (error) {
         alert("Invalid expression");
     }
